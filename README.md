@@ -11,7 +11,7 @@ The system measures temperature, humidity, and ambient light level. The measured
 
 The final setup combines the EK-TM4C123GXL LaunchPad, DHT11, LDR module, SSD1306 OLED, and breadboard power distribution in a single working system.
 
-[Watch the full system demo](images/final-system/smart-environment-station-demo.mp4)
+[Watch the full system demo](https://raw.githubusercontent.com/YigitalpDellal/Smart-Environment-Station/main/images/final-system/smart-environment-station-demo.mp4)
 
 
 ## Project Purpose
@@ -254,7 +254,7 @@ The calibrated response was checked at both ends of the measured range:
 |---|---|
 | ![LDR dark condition](images/ldr/02-ldr-dark.png) | ![LDR bright condition](images/ldr/03-ldr-bright.png) |
 
-[Watch the LDR response demo](images/ldr/ldr-response-demo.mp4)
+[Watch the LDR response demo](https://raw.githubusercontent.com/YigitalpDellal/Smart-Environment-Station/main/images/ldr/ldr-response-demo.mp4)
 
 ### DHT11 Timing Test
 
