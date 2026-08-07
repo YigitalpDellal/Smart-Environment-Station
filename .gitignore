@@ -1,0 +1,26 @@
+# CCS build folders
+Debug/
+Release/
+
+# Build output files
+*.out
+*.obj
+*.map
+*.d
+*.bin
+*.hex
+
+# IDE-generated and workspace files
+.metadata/
+.idea/
+.clangd
+
+# Temporary and log files
+*.tmp
+*.log
+*.bak
+*~
+
+# Operating system files
+Thumbs.db
+.DS_Store
