@@ -343,6 +343,8 @@ Smart-Environment-Station/
 ## Documentation
 
 - [Project report](docs/project-report.md)
+- [Final project report (PDF)](docs/report/Smart-Environment-Station-Project-Report.pdf)
+- [Final project report (Word)](docs/report/Smart-Environment-Station-Project-Report.docx)
 - [User manual](docs/user-manual.md)
 - [Hardware connections](docs/hardware-connections.md)
 - [Development log](docs/development-log.md)
