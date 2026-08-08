@@ -290,22 +290,7 @@ OLED_SendCommand
 OLED_SendData
 ```
 
-Some helper functions were called but had not yet been defined. The OLED functions were reorganized in dependency order:
-
-```text
-I2C0_Init
-I2C_DeviceResponds
-OLED_I2CWriteByte
-OLED_SendCommand
-OLED_SendData
-OLED_Init
-OLED_SelectFullScreen
-OLED_Fill
-OLED text functions
-main
-```
-
-After the missing helper functions were added, the project built successfully.
+Some helper functions used by the OLED code did not yet have linked definitions. After the missing I2C, command/data, fill, and text helper definitions were added, the project linked successfully.
 
 ## Repository Structure
 ```text
