@@ -235,30 +235,13 @@ The OLED turned fully on and then became blank.
 During integration, linker errors appeared for functions such as:
 
 ```text
-OLED\_Init
-OLED\_Fill
-OLED\_SendCommand
-OLED\_SendData
+OLED_Init
+OLED_Fill
+OLED_SendCommand
+OLED_SendData
 ```
 
-The cause was missing helper function definitions.
-
-The functions were added in dependency order:
-
-```text
-I2C0\_Init
-I2C\_DeviceResponds
-OLED\_I2CWriteByte
-OLED\_SendCommand
-OLED\_SendData
-OLED\_Init
-OLED\_SelectFullScreen
-OLED\_Fill
-OLED text functions
-main
-```
-
-The project built successfully after the missing functions were added.
+Some helper functions used by the OLED code did not yet have definitions available to the linker. After the missing I2C, command/data, fill, and text helper definitions were added, the project built successfully.
 
 ## Stage 14 - Live OLED Output
 
