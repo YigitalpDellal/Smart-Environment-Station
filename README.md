@@ -308,7 +308,6 @@ main
 After the missing helper functions were added, the project built successfully.
 
 ## Repository Structure
-
 ```text
 Smart-Environment-Station/
 ├── firmware/
@@ -316,6 +315,9 @@ Smart-Environment-Station/
 ├── source/
 │   └── main.c
 ├── docs/
+│   ├── report/
+│   │   ├── Smart-Environment-Station-Project-Report.pdf
+│   │   └── Smart-Environment-Station-Project-Report.docx
 │   ├── development-log.md
 │   ├── hardware-connections.md
 │   ├── project-report.md
@@ -330,9 +332,11 @@ Smart-Environment-Station/
 │   ├── oled/
 │   ├── setup/
 │   └── uart/
+├── .gitignore
 ├── CHANGELOG.md
 ├── LICENSE
-└── README.md
+├── README.md
+└── THIRD_PARTY_NOTICES.md
 ```
 
 - `firmware`: Complete Code Composer Studio project
