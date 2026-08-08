@@ -2,6 +2,18 @@
 
 All notable changes to the Smart Environment Station project are documented in this file.
 
+## [1.0.1] - 2026-08-08
+
+### Added
+- Final project report in PDF and Word formats
+- Full-system and LDR demo videos embedded in the README
+
+### Changed
+- Updated README documentation links
+- Updated the repository structure section
+- Refined the OLED linker troubleshooting explanation
+- Cleaned the development log formatting
+
 ## [1.0.0] - 2026-08-06
 
 ### Added
